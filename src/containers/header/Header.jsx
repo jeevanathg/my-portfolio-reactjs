@@ -4,7 +4,8 @@ import './header.css'
 const Header = () => {
     return(
         <div>
-            Header
+            Jeevanath Gopalakrishnan (Application under development)
+            <hr />
         </div>
     )
 }
