@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid orange;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes profession {
+    0% {
+        color: orange;
+
+    }
+
+    100% {
+        color: White;
+
+    }
+}
+
+.header .logo .profession {
+    color: orange;
+    animation-name: profession;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+.header .nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav-container .nav {
+    padding: 10px 20px;
+}
+
+.header h1 span {
+    font-size: 12px;
+}

@@ -1,16 +1,18 @@
 import React from 'react'
-import {AboutMe, MySkills, Work, Contact, Header, Footer } from './containers'
+import { Header,Footer } from './components'
+import { WhatIknow, WhoAmI ,WhyThisSite } from './containers'
 
 const App = () => {
     return (
-        <div>
+        <>
             <Header />
-            <AboutMe />
-            <MySkills />
-            <Work />
-            <Contact />
+            <div className='container'>
+                <WhoAmI />
+                <WhatIknow/>
+                <WhyThisSite />
+            </div>
             <Footer />
-        </div>
+        </>
     )
 }
 

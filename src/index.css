@@ -1,4 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: rgb(31,37,46);
-    color:rgb(246,145,45)
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #CCC;
+   background: rgb(26, 29, 39);
+   font-size: 100%;
+}
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 160%;
+    color: orange;
+    padding: 12px 24px;
+    border-bottom: 1px solid orange ;
+}
+h3{
+    padding: 12px 24px;
+    font-size: 120%;
+    color: orange;
+}
+
+p{
+    line-height: 160%;
+    padding: 12px 24px;
+}
+ul {
+    padding-left: 64px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(235, 147,58);
+    font-size: 100%;
+    transition: all 1s;
+    padding: 10px;
+    background: rgb(26, 29, 39);
+}
+
+a:hover {
+    color: rgb(250, 207, 160);
+    font-size: 130%;
+    background: rgb(46, 49, 58);
+}
+
+
+.container {
+    padding: 0;
+    border-bottom: 1px solid orange;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: #333;
+    width: 100%;    
 }
